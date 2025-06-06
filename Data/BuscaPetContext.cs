@@ -15,7 +15,6 @@ namespace BuscaPet.Data
         public DbSet<Tag> Tags { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Vacina> Vacinas { get; set; }
-        public DbSet<UsuarioPet> UsuarioPets { get; set; }
         public DbSet<Posicao> Posicoes { get; set; } 
     }
 }

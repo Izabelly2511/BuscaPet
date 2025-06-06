@@ -12,11 +12,7 @@ namespace BuscaPet.Models
         public string Observacao { get; set; }
         public string Raca { get; set; }
 
-        public int TagId { get; set; }
-        public Tag? Tag { get; set; }
-
-        public List<UsuarioPet> UsuariosPets { get; set; } = new();
-
+        public int? TagId { get; set; }
 
     }
 }

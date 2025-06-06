@@ -11,7 +11,8 @@ namespace BuscaPet.Models
         public string Email { get; set; }
         public string Senha { get; set; }
 
-        public List<UsuarioPet> UsuariosPets { get; set; } = new();
+        public int PetId { get; set; }
+        public Pet Pet { get; set; }
 
     }
 }

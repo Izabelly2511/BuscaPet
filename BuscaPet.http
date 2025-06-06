@@ -1,0 +1,6 @@
+@BuscaPet_HostAddress = http://localhost:5102
+
+GET {{BuscaPet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
